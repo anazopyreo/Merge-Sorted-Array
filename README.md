@@ -14,7 +14,7 @@ I don't need the initial values of m or n so I can use them directly as pointers
 ## Approach
 1. Decrement both n and m to point at the last elements in their respective arrays
 2. Use a while loop to track when I have used all elements from one of the lists
-  - Note that line 6 is doing a lot of heavy lifting
+   - Note that line 6 is doing a lot of heavy lifting
 3. First the ternary operator compares the values nums1[m] & nums2[n]
 4. If nums1[m] is larger, that value is stored in nums1[n+m+1] and m is decremented
 5. Else nums2[n] is stored and n is decremented
@@ -23,5 +23,5 @@ I don't need the initial values of m or n so I can use them directly as pointers
  - Going through the rest of nums1 is unnecessary since it already contains all remaining items sorted into their correct places
 
 ## Complexity
-  - Time Complexity: O(m+n) due to iterating through both arrays
-  - Space Complexity: O(1) since no additional storage space is used
+    - Time Complexity: O(m+n) due to iterating through both arrays
+    - Space Complexity: O(1) since no additional storage space is used
