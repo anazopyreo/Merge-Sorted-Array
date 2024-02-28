@@ -23,5 +23,5 @@ I don't need the initial values of m or n so I can use them directly as pointers
  - Going through the rest of nums1 is unnecessary since it already contains all remaining items sorted into their correct places
 
 ## Complexity
-    - Time Complexity: O(m+n) due to iterating through both arrays
-    - Space Complexity: O(1) since no additional storage space is used
+   - Time Complexity: O(m+n) due to iterating through both arrays
+   - Space Complexity: O(1) since only constant amount of additional memory is used
